@@ -51,7 +51,7 @@ const addTask =async  (task) => {
 
 // Delete Task 
 const deleteTask = async (id) => {
-// console.log('delete Task ' , id)
+
 await fetch(`http://localhost:5000/tasks/${id}`,{
   method: 'DELETE' ,
 })
